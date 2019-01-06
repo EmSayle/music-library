@@ -1,0 +1,30 @@
+.navBarStyle {
+  padding: 10px;
+  background-color: #75cac3;
+  margin: 0px;
+}
+
+#list {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+
+/* Change the link color to #111 (black) on hover */
+#list:hover {
+  background-color: #2a6171;
+}
+
+.logo {
+  /* color: #f3d516; */
+  color: white;
+  width: fit-content;
+  position: absolute;
+  left: 85%;
+  top: 8%;
+}
